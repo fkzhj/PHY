@@ -3,13 +3,13 @@ function tick() {
     var years,months,days,hours, minutes, seconds;
     var intYears,intMonths,intDays,intHours, intMinutes, intSeconds;
     var today;
-    today = new Date();     //ÏµÍ³µ±Ç°Ê±¼ä
-    intYears = today.getFullYear();  //µÃµ½Äê·İ,getFullYear()±ÈgetYear()¸üÆÕÊÊ
-    intMonths = today.getMonth() + 1; //µÃµ½ÔÂ·İ£¬Òª¼Ó1
-    intDays = today.getDate();   //µÃµ½ÈÕÆÚ
-    intHours = today.getHours();  //µÃµ½Ğ¡Ê± 
-    intMinutes = today.getMinutes(); //µÃµ½·ÖÖÓ
-    intSeconds = today.getSeconds(); //µÃµ½ÃëÖÓ
+    today = new Date();     //ç³»ç»Ÿå½“å‰æ—¶é—´
+    intYears = today.getFullYear();  //å¾—åˆ°å¹´ä»½,getFullYear()æ¯”getYear()æ›´æ™®é€‚
+    intMonths = today.getMonth() + 1; //å¾—åˆ°æœˆä»½ï¼Œè¦åŠ 1
+    intDays = today.getDate();   //å¾—åˆ°æ—¥æœŸ
+    intHours = today.getHours();  //å¾—åˆ°å°æ—¶ 
+    intMinutes = today.getMinutes(); //å¾—åˆ°åˆ†é’Ÿ
+    intSeconds = today.getSeconds(); //å¾—åˆ°ç§’é’Ÿ
     years = intYears + "-";    
         
     if(intMonths < 10 ){
