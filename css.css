@@ -17,6 +17,9 @@ a {
     margin-right: auto;
 	background-color: #FFFFFF;
 }
+.fkzhj0 {
+	width: 1000px;
+}
 .top {
 	height: 109px;
 	width: 1000px;
@@ -135,7 +138,8 @@ a.home1 {
 	display:inline-block;
 }
 a.home1:hover {
-    background:url(img/11.png) no-repeat;
+	background: url(img/11.png) no-repeat;
+	color: #DFDDDE;
 }
 a.home2 {
     background:url(img/2.png) no-repeat;
