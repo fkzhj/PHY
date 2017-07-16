@@ -1,3 +1,4 @@
+@charset "utf-8";
 body {
 	background-image: url(img/bj.png);
 	background-repeat: repeat;
@@ -16,15 +17,23 @@ a {
     margin-right: auto;
 	background-color: #FFFFFF;
 }
-
 .top {
 	height: 109px;
 	width: 1000px;
 }
+.top0 {
+	height: 50px;
+	width: 1000px;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	line-height:50px;
+	color: #050B42;
+	background-color: #ffffff;
+}
 .time {
 	height: 25px;
 	width: 1000px;
-	font-family: "΢���ź�";
+	font-family: "微软雅黑";
 	font-size: 15px;
 	line-height:25px;
 	color: #FFFFFF;
@@ -56,7 +65,7 @@ a {
 	}
 .right {
 	margin: 4px;
-	height: 425px;
+	height: 482px;
 	width: 688px;
 	float:right;
 }
@@ -108,9 +117,7 @@ a {
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
-a.fk{color:#143651;
-}
-
+a.fk{color:#143651;}
 a.fk:hover { color:#000000; font-weight: bold;}
 .clear{
     clear:both;
@@ -212,7 +219,7 @@ a.home8:hover {
 .foot1 {
 	width: 1000px;
 	text-align:center; 
-	font-family: "΢���ź�";
+	font-family: "微软雅黑";
 	font-size: 13px;
 	color: #FFFFFF;
 }
@@ -227,7 +234,7 @@ a.home8:hover {
 	float:left;
 }
 .f_title {
-	font-family: "΢���ź�";
+	font-family: "微软雅黑";
 	font-size: 25px;
 	line-height: 50px;
 	font-weight: bold;
@@ -238,7 +245,7 @@ a.home8:hover {
 	white-space:pre;
 }
 .f_text {
-	font-family: "����";
+	font-family: "仿宋";
 	font-size: 17px;
 	text-indent:2em;
 	line-height: 25px;
@@ -250,7 +257,7 @@ a.home8:hover {
 	background-position: right bottom;
 }
 .f_text1 {
-	font-family: "����";
+	font-family: "仿宋";
 	font-size: 17px;
 	line-height: 25px;
 	color: #143651;
@@ -261,7 +268,7 @@ a.home8:hover {
 	background-position: right bottom;
 }
 .f_text2 {
-	font-family: "����";
+	font-family: "仿宋";
 	font-size: 16px;
 	line-height: 25px;
 	color: #143651;
@@ -277,7 +284,7 @@ a.home8:hover {
 .s_time{
 	height: 46px;
 	width: 150px;
-	font-family: "΢���ź�";
+	font-family: "微软雅黑";
 	font-size: 15px;
 	line-height:23px;
 	color: #FFFFFF;
@@ -294,7 +301,7 @@ ul#simple-menu{
 	list-style-type:none;
 	width:850px;
 	height:35px;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 	font-size:16px;
 	font-weight:normal;
 	margin:0;
@@ -311,7 +318,7 @@ ul#simple-menu li a:hover{background:#2E4560;}
 ul#simple-menu li a.current{color:#2E4560;background:#fff;}
 ul#simple-menu li a.current:hover{color:#2E4560;background:#fff;}
 .oldstyle{
-	width: 225px;
+	width: 125px;
 	float: left;
 	border: 1px solid #0000FF;
 	background-color: #EEE;
@@ -332,7 +339,7 @@ ul#simple-menu li a.current:hover{color:#2E4560;background:#fff;}
 	color: #000000
 }
 .newstyle{
-	width:225px;
+	width:125px;
 	float:left;
 	border: 1px solid #0000FF;
 	background-color: #0000FF;
